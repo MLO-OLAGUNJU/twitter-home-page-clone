@@ -12,6 +12,9 @@
 button{
     cursor: pointer;
 }
+.mobile-button-leaf{
+    display: none;
+}
 
 .container{
     display: grid;
@@ -638,6 +641,22 @@ img{
     }
     .butini{
         width: 200px;
+    }
+    .mobile-button-leaf{
+        display: block;
+        position: fixed;
+        bottom: 60px;
+        right: 0;
+        padding: 6.25px;
+        background-color: #1A8CD8;
+        padding: 6.25px;
+        color: #fff;
+    }
+    .mobile-button-leaf:hover{
+        padding: 6.25px;
+        background-color: #1A8CD8;
+        padding: 6.25px;
+        color: #fff;
     }
     .butini:focus::after{
         content: "";
