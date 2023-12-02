@@ -704,16 +704,17 @@ img{
         font-size: 10px;
     }
     .bottom-bar{
-        display: flex;
-        width: 390px;
-        justify-content: center;
-        gap: 70px;
-        font-size: 25px;
-        position: fixed;
-        bottom: 0;
-        z-index: 200;
-        background: #fff;
-        padding: 10px 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #fff;
+      border-top: 1px solid #ccc;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+      opacity: 1;
+      transition: opacity 0.5s ease-in-out;
+      z-index: 10000000;
     }
     
 
