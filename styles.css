@@ -571,7 +571,7 @@ img{
     }
 }
 /* IPHONE XR */
-@media (max-width:414px) {
+@media (max-width:480px) {
     .container{
         padding: 0px;
     }
