@@ -272,10 +272,15 @@ img{
 .user-post-head{
     padding-top: 7px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first{
+    padding-top: 7px;
+    display: flex;
     gap: 5px;
     align-items: center;
 }
-
 .account-name{
     cursor: pointer;
     font-weight: 600;
@@ -301,7 +306,7 @@ img{
 }
 
 .more{
-    margin-left: 230px;
+    /* margin-left: 238px; */
     color: #585858;
     cursor: pointer;
     height: 30px;
@@ -383,7 +388,7 @@ img{
     margin-left: 0;
 }
 .engage-icon-div:nth-child(5){
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 10px;
 }
 
